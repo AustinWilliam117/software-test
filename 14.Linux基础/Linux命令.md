@@ -276,23 +276,85 @@ mkdir （make directories）创建目录，如果要创建的目录已存在，�
 
 ​	**grep [-vnicEwo] [PATTERN] file**
 
-- `grep -v `显示不匹配的行，显示不包含匹配文本的所有行
+![](./grep/grep.png)
 
-- 
+- `grep -v [PATTERN] file`显示不匹配的行，显示不包含匹配文本的所有行
 
-	
+  ![](./grep/grep-v.png)
 
-### 11. find
+  ![](./grep/grep-v1.png)
+
+- `grep -n [PATTERN] file` 使用grep命令显示过滤后的内容的行号
+
+  ![](./grep/grep-n.png)
+
+- `grep -i [PATTERN] file` 不区分大小写
+
+  ![](./grep/grep-i.png)
+
+- `grep -c [PATTERN] file`  计算匹配的字符串的数量**（按行字符串匹配第一个）**
+
+  ![](./grep/grep-c.png)
+
+- `grep -w [PATTERN] file` 搜索关键字的字符串
+
+  ![](./grep/grep-w.png)
+
+### 12. find
 
 	find命令用于查找目录下的文件，同时也可以调用其他命令执行相应的操作。
 
-​	**find [-H] [-L] [-P] [-D debugopts] [-Olevel] [pathname] [expression]**
+​	**find [-H] [-L] [-P] [-D debugopts] [-Olevel] [pathname] [expression]**	
 
-​	![](./find/find语法使用.png)
+![](./find/find语法使用.png)
 
+命令参数
 
+![](./find/find1.png)
 
-### 12. useradd
+![](./find/find2.png)
+
+- `find path -atime tests`查找指定时间内修改过的文件 ( 距现在2天 ) 
+
+  ![](./find/find-atime.png)
+
+  find时间查找说明
+
+  ![](./find/find时间查找.png)
+
+  ·-4表示文件更改时间距现在4天以内。
+
+  ·+4表示文件更改时间距现在4天以前。
+
+  ·4表示距现在第4天。
+
+- `find -name` 用-name指定关键字查找
+
+  ![](./find/find-name.png)
+
+- `find -!` 取反，不是目录的文件
+
+  ![](./find/find-!.png)
+
+### 13. tail
+
+​	tail命令用于显示文件内容的尾部，它默认输出文件的最后10行
+
+​	**tail [option] [file]**
+
+​	如果指定了多于一个文件，则在每一段输出前会给出文件名作为文件头
+
+- `tail file` 显示文件后10行
+
+  ![](./tail/tail .png)
+
+- `tail -5 file` 显示文件后5行
+
+  ![](./tail/tail-5.png)
+
+- `tail -f file` 监控日志文件
+
+### 14. useradd
 
 ​	useradd命令可用于创建新的用户或者更改用户的信息。
 
@@ -338,13 +400,8 @@ mkdir （make directories）创建目录，如果要创建的目录已存在，�
   
   根据上文的结果，我们将会发现/etc/shadow、/etc/group和/etc/gshadow几个文件都存在与austin用户相关的记录
 
-- 
 
-  
-
-
-
-### 13. chown
+### 15. chown
 
 ​	chown命令用于改变文件或目录的用户和用户组
 
@@ -372,13 +429,13 @@ chown 用户:组	文件或目录	#表示授权用户和组
   ![](./chown/chown-ug.png)
 
 
-### 14. ps
+### 16. ps
 
 ​	ps命令用于列出执行ps命令的那个时刻的进程快照，就像用手机给进程照了一张照片。如果想要动态地显示进程的信息，就需要使用top命令，该命令类似于把手机切换成录像模式。
 
 ​	**ps [option]**
 
-​	![](./ps/ps.png)
+![](./ps/ps.png)
 
 - `ps`命令不接任何参数
 
@@ -424,7 +481,7 @@ chown 用户:组	文件或目录	#表示授权用户和组
 
   ![](./ps/ps-u.png)
 
-### 15. kill
+### 17. kill
 
 ​	kill命令能够终止你希望停止的进程。
 
@@ -444,7 +501,7 @@ chown 用户:组	文件或目录	#表示授权用户和组
 
   ![](./kill/kill-9.png)
 
-### 16. top
+### 18. top
 
 ​	实时显示系统中各个进程的资源占用状况	![](./top/top.png)
 
@@ -502,19 +559,95 @@ chown 用户:组	文件或目录	#表示授权用户和组
 
   ![](./top/top-1.png)
 
-### 17. netstat
+### 19.free
+
+​	free命令用于显示系统内存状态，具体包括系统物理内存、虚拟内存、共享内存和系统缓存等
+
+​	**free [option]**
+
+![](./free/free.png)
+
+- `free -m` 以MB为单位显示内存使用情况
+
+  ![](./free/free-m.png)
+
+- `free -h` 根据实际大小自动转换成KB、MB、GB单位
+
+  ![](./free/free-h.png)
+
+  ·Linux系统的特性是将不用的物理内存缓存起来，因此327MB不是系统的真实剩余内存。
+
+  ·系统真正可用的内存为390MB。
+
+  ·buffers为写入数据缓冲区。
+
+  ·cache为读取数据的缓存区。
+
+### 20. netstat
 
 ​	netstat命令用于显示本机网络的连接状态、运行端口和路由表等信息。
 
 ​	**netstat [option]**
 
+![](./netstat/netstat.png)
 
+- `netstat-an` 显示所有连接信息
+
+  ![](./netstat/netstat-an1.png)
+
+  “Active Internet connections （servers and established）活动的TCP/IP网络连接”
+
+  ![](./netstat/netstat-an2.png)
+
+  “Active UNIX domain sockets （servers and established）活动的unix socket连接”
+
+  **Proto：**socket使用的协议（TCP、UDP、RAW）
+
+  **Recv-Q：**接收到但是还未处理的字节数
+
+  **Send-Q：**已经发送但是未被远程主机确认收到的字节数
+
+  **Local Address：**本地主机地址和端口
+
+  **Foreign Address：**远程主机地址和端口
+
+  **State：**socket的状态，通常仅仅有TCP的状态，状态值可能有ESTABLISHED、SYN_SENT、SYN_RECV、FIN_WAIT1、FIN_WAIT2、TIME_WAIT等
+
+  ![](./netstat/state状态信息详解.png)
+
+- `netstat -lntup` 显示所有TCP和UDP正在监听的连接信息
+
+  ![](./netstat/netstat-lntup.png)
+
+### 21. su
+
+​	su命令用于将当前用户切换到指定用户或者以指定用户的身份执行命令或程序。
+
+​	**su [option] [user]**
+
+​	从root用户切换到普通用户时，不需要任何密码；从普通用户切换到root用户时，需要输入root密码。
+
+- `su - user` **-, -l, --login 切换用户的同时，将用户的家目录、系统环境等重新按切换后的用户初始化**
+
+  ![](./su/su-.png)
+
+- `su -c user` 向Shell传递单个命令
+
+### 22. echo
+
+​	echo命令能将指定的文本显示在Linux命令行上
+
+​	**echo [option] [string]**
+
+- `echo -n string` 不换行输出
+
+  ![](./echo/echo-n.png)
 
 ###  vi / vim
 
+​	**vim [option] [file]**
+
 	vi是Linux命令行界面下的文字编辑器，几乎所有的Linux系统都安装了vi，只要学会了vi这个编辑工具，就可以在任何Linux系统上使用它。而vim是vi命令的增强版（Vi IMproved），与vi编辑器完全兼容，此外还有很多增强功能，例如用不同颜色高亮显示代码。因此，如果系统有vim命令，那么建议大家就使用vim编辑文本。
-	
-	**vim [option] [file]**
 	
 	一般来说，vim可分为三种模式：普通模式、编辑模式、命令模式。这三种模式的作用分别如下。
 	
@@ -523,8 +656,8 @@ chown 用户:组	文件或目录	#表示授权用户和组
 	（2）编辑模式在普通模式下不能进行编辑输入操作，只有按下“i，I，o，O，a，A，r，R，s，S”（其中“I”最常用）等字母进入编辑模式之后才可以执行录入文字等编辑操作。看文件是否处于编辑模式状态有一个重要的特征，那就是在窗口的左下角要有插入的标记“--INSERT--”或“--插入--”
 	
 	（3）命令模式在普通模式下，输入“：”或“/”或“?”时，光标会自动定位在那一行，在这个模式中，可以执行保存、退出、搜索、替换、显示行号等相关操作。
-	
-	![](./vim/三种模式示意图.png)
+
+![](./vim/三种模式示意图.png)
 
 <center>vim命令的参数选项及说明</center>
 
