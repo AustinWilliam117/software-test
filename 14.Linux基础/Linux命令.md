@@ -134,7 +134,7 @@ mkdir （make directories）创建目录，如果要创建的目录已存在，�
 
 1. `touch *`
 
-   ![](./touch/touch*.png)
+   ![](./touch/touch-.png)
 
    将目录中所有文件修改成相同时间和日期
 
@@ -168,7 +168,7 @@ mkdir （make directories）创建目录，如果要创建的目录已存在，�
 
 2. 把多个文件合并成一个
 
-   ![](./cat/cat>.png)
+   ![](./cat/cat-.png)
 
 3. 追加内容到文件尾
 
@@ -642,6 +642,68 @@ chown 用户:组	文件或目录	#表示授权用户和组
 - `echo -n string` 不换行输出
 
   ![](./echo/echo-n.png)
+
+### 23. rm
+
+​	rm命令可以理解为英文单词remove的缩写，其功能是删除一个或多个文件或目录（remove files or directories）。
+
+​	这是Linux系统里最危险的命令之一，请慎重使用。
+
+​	**rm [-rf] [file]**
+
+​	![](./rm/rm-rf.png)
+
+### 24. shutdown
+
+​	shutdown是一个用来安全关闭或重启Linux系统的命令，系统在关闭之前会通知所有的登录用户，系统即将关闭，此时所有的新用户都不可以登录，与shutdown功能类似的命令还有init、halt、poweroff、reboot
+
+​	**shutdown [option].. TIME [MESSAGE]**
+
+​	![](./shutdown/shutdown.png)
+
+### 25. reboot / halt / poweroff
+
+​	halt、poweroff、reboot这三个命令对应的都是同一个man帮助文档，而halt和poweroff命令是reboot命令的链接文件
+
+​	**reboot [option]**
+
+​	**halt [option]**
+
+​	**poweroff [option]**
+
+​	![](./reboot/reboot.png)
+
+### 26. du
+
+​	du命令可以用于统计磁盘空间的使用情况，这个命令有助于我们找出哪个文件过多地占用了磁盘空间
+
+​	**du [option] [file]**
+
+- `du -a file` 通过参数-a显示所有目录或文件所占空间
+
+  ![](./du/du-a.png)
+
+- `du -sh file` 显示指定目录文件大小
+
+  ![](./du/du-sh.png)
+
+### 27. df
+
+​	显示文件系统磁盘空间的使用情况
+
+​	**df [option] [file]**
+
+![](./df/df.png)
+
+- `df` 显示磁盘的使用情况
+
+  ![](./df/df-.png)
+
+- `df -ih` 参数-i显示inode的使用情况
+
+  ![](./df/df-ih.png)
+
+
 
 ###  vi / vim
 
