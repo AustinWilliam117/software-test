@@ -1,0 +1,586 @@
+1611752985607	geckodriver	INFO	Listening on 127.0.0.1:37201
+1611752985612	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYK1h9v"
+Gtk-Message: 21:09:45.736: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:09:46.624: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:09:46.777: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:246199): GLib-GIO-WARNING **: 21:09:46.935: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1611752987794	Marionette	INFO	Listening on port 44929
+1611752987850	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 21:09:47.868: Failed to load module "appmenu-gtk-module"
+1611752988822	Marionette	INFO	Stopped listening on port 44929
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 376))
+1611913355781	geckodriver	INFO	Listening on 127.0.0.1:59509
+1611913356791	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileraTWz4"
+Gtk-Message: 17:42:37.064: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:42:37.967: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:42:38.089: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:362172): GLib-GIO-WARNING **: 17:42:38.235: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1611913358797	Marionette	INFO	Listening on port 45649
+1611913358853	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611913358863	Marionette	ERROR	[15] No reply from Marionette:Register
+Gtk-Message: 17:42:39.007: Failed to load module "appmenu-gtk-module"
+1611913359874	Marionette	INFO	Stopped listening on port 45649
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1611928202740	geckodriver	INFO	Listening on 127.0.0.1:50905
+1611928203795	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile9o0T4J"
+Gtk-Message: 21:50:03.957: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:50:04.957: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:50:05.129: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:537893): GLib-GIO-WARNING **: 21:50:05.446: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1611928206403	Marionette	INFO	Listening on port 38323
+Gtk-Message: 21:50:06.412: Failed to load module "appmenu-gtk-module"
+1611928206523	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928206539	Marionette	ERROR	[15] No reply from Marionette:Register
+1611928208129	Marionette	INFO	Stopped listening on port 38323
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
+console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 422))
+1611928362133	geckodriver	INFO	Listening on 127.0.0.1:54517
+1611928362137	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHGvtPw"
+Gtk-Message: 21:52:42.248: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:52:43.023: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:52:43.178: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:541493): GLib-GIO-WARNING **: 21:52:43.378: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1611928364384	Marionette	INFO	Listening on port 44005
+Gtk-Message: 21:52:44.413: Failed to load module "appmenu-gtk-module"
+1611928364473	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928364489	Marionette	ERROR	[15] No reply from Marionette:Register
+1611928396644	geckodriver	INFO	Listening on 127.0.0.1:39013
+1611928396648	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileraDQhM"
+Gtk-Message: 21:53:16.758: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:53:17.553: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:53:17.705: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:542363): GLib-GIO-WARNING **: 21:53:17.899: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 21:53:18.971: Failed to load module "appmenu-gtk-module"
+1611928398976	Marionette	INFO	Listening on port 38361
+1611928399088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928399102	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1611928401707	Marionette	INFO	Stopped listening on port 38361
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1611928404269	Marionette	INFO	Stopped listening on port 44005
+1611928422771	geckodriver	INFO	Listening on 127.0.0.1:40639
+1611928422776	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePOf4J3"
+Gtk-Message: 21:53:42.902: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:53:43.665: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:53:43.805: Failed to load module "appmenu-gtk-module"
+
+(firefox:543070): GLib-GIO-WARNING **: 21:53:43.974: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611928424983	Marionette	INFO	Listening on port 39945
+Gtk-Message: 21:53:44.987: Failed to load module "appmenu-gtk-module"
+1611928425023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928425039	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611928449921	Marionette	INFO	Stopped listening on port 39945
+1611928453014	geckodriver	INFO	Listening on 127.0.0.1:56277
+1611928453019	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileVkcwJq"
+Gtk-Message: 21:54:13.142: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:54:13.914: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:54:14.064: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:543858): GLib-GIO-WARNING **: 21:54:14.259: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 21:54:15.274: Failed to load module "appmenu-gtk-module"
+1611928455289	Marionette	INFO	Listening on port 38703
+1611928455361	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928455376	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1611928569517	Marionette	INFO	Stopped listening on port 38703
+1611928576222	geckodriver	INFO	Listening on 127.0.0.1:35777
+1611928576226	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXe17dJ"
+Gtk-Message: 21:56:16.339: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:56:17.127: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:56:17.251: Failed to load module "appmenu-gtk-module"
+
+(firefox:546571): GLib-GIO-WARNING **: 21:56:17.370: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611928578357	Marionette	INFO	Listening on port 34495
+Gtk-Message: 21:56:18.421: Failed to load module "appmenu-gtk-module"
+1611928578470	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928578487	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+SourceActor threw an exception: [Exception... "Failed to open input source 'javascript:void(function(){document.open();document.write("<!DOCTYPE html><html xmlns='http://www.w3.org/1999/xhtml' class='view' ><head><style type='text/css'>.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}body{margin:8px;font-family:sans-serif;font-size:16px;}p{margin:5px 0;}</style><link rel='stylesheet' type='text/css' href='http://192.168.1.101/shopxo/public/static/common/lib/ueditor/themes/iframe.css'/></head><body class='view' ></body><script type='text/javascript'  id='_initialScript'>setTimeout(function(){editor = window.parent.UE.instants['ueditorInstant0'];editor._setup(document);},0);var _tmpScript = document.getElementById('_initialScript');_tmpScript.parentNode.removeChild(_tmpScript);</script></html>");document.close();}())'"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: mainThreadFetch/< :: line 668"  data: yes]
+Stack: mainThreadFetch/<@resource://devtools/shared/DevToolsUtils.js:668:15
+mainThreadFetch@resource://devtools/shared/DevToolsUtils.js:516:10
+_fetchURLContents@resource://devtools/server/actors/utils/sources-manager.js:439:22
+urlContents@resource://devtools/server/actors/utils/sources-manager.js:406:17
+_resurrectSource@resource://devtools/server/actors/thread.js:2112:35
+addAllSources@resource://devtools/server/actors/thread.js:1482:14
+watch@resource://devtools/server/actors/resources/sources.js:52:17
+watchResources@resource://devtools/server/actors/resources/index.js:204:19
+_watchTargetResources@resource://devtools/server/actors/targets/target-actor-mixin.js:52:24
+addWatcherDataEntry@resource://devtools/server/actors/targets/target-actor-mixin.js:29:21
+_addWatcherDataEntry@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:411:24
+receiveMessage@resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm:353:21
+Line: 668, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 668: NS_ERROR_NOT_AVAILABLE: Failed to open input source 'javascript:void(function(){document.open();document.write("<!DOCTYPE html><html xmlns='http://www.w3.org/1999/xhtml' class='view' ><head><style type='text/css'>.view{padding:0;word-wrap:break-word;cursor:text;height:90%;}body{margin:8px;font-family:sans-serif;font-size:16px;}p{margin:5px 0;}</style><link rel='stylesheet' type='text/css' href='http://192.168.1.101/shopxo/public/static/common/lib/ueditor/themes/iframe.css'/></head><body class='view' ></body><script type='text/javascript'  id='_initialScript'>setTimeout(function(){editor = window.parent.UE.instants['ueditorInstant0'];editor._setup(document);},0);var _tmpScript = document.getElementById('_initialScript');_tmpScript.parentNode.removeChild(_tmpScript);</script></html>");document.close();}())'
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611928640123	Marionette	INFO	Stopped listening on port 34495
+1611928641991	geckodriver	INFO	Listening on 127.0.0.1:35991
+1611928641997	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilex8qGhp"
+Gtk-Message: 21:57:22.114: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:57:22.891: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:57:23.037: Failed to load module "appmenu-gtk-module"
+
+(firefox:548014): GLib-GIO-WARNING **: 21:57:23.203: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611928644271	Marionette	INFO	Listening on port 42519
+Gtk-Message: 21:57:24.282: Failed to load module "appmenu-gtk-module"
+1611928644327	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611928644340	Marionette	ERROR	[15] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1611929647069	geckodriver	INFO	Listening on 127.0.0.1:54505
+1611929647074	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemlda0o"
+Gtk-Message: 22:14:07.190: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:14:08.151: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:14:08.281: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:568159): GLib-GIO-WARNING **: 22:14:08.509: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1611929649623	Marionette	INFO	Listening on port 43945
+Gtk-Message: 22:14:09.671: Failed to load module "appmenu-gtk-module"
+1611929649723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611929649752	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611929651628	Marionette	INFO	Stopped listening on port 42519
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1611929690740	Marionette	INFO	Stopped listening on port 43945
+1611929694631	geckodriver	INFO	Listening on 127.0.0.1:56225
+1611929694636	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePDP8VU"
+Gtk-Message: 22:14:54.760: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:14:55.551: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 22:14:55.748: Failed to load module "appmenu-gtk-module"
+
+(firefox:569290): GLib-GIO-WARNING **: 22:14:55.860: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1611929697012	Marionette	INFO	Listening on port 36895
+Gtk-Message: 22:14:57.024: Failed to load module "appmenu-gtk-module"
+1611929697070	Marionette	WARN	TLS certificate errors will be ignored for this session
+1611929697087	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1611929700937	Marionette	INFO	Stopped listening on port 36895
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612067867379	geckodriver	INFO	Listening on 127.0.0.1:44163
+1612067867430	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileIqXHTs"
+Gtk-Message: 12:37:47.657: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:37:48.497: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:37:48.648: Failed to load module "appmenu-gtk-module"
+
+(firefox:127209): GLib-GIO-WARNING **: 12:37:48.803: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612067869898	Marionette	INFO	Listening on port 37169
+Gtk-Message: 12:37:49.903: Failed to load module "appmenu-gtk-module"
+1612067869958	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612067869970	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+1612067879746	Marionette	INFO	Stopped listening on port 37169
+1612067881619	geckodriver	INFO	Listening on 127.0.0.1:42971
+1612067881623	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled8ETLo"
+Gtk-Message: 12:38:01.732: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:38:02.460: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:38:02.587: Failed to load module "appmenu-gtk-module"
+
+(firefox:127701): GLib-GIO-WARNING **: 12:38:02.714: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612067883832	Marionette	INFO	Listening on port 35645
+Gtk-Message: 12:38:03.853: Failed to load module "appmenu-gtk-module"
+1612067883951	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612067883963	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1612067931491	geckodriver	INFO	Listening on 127.0.0.1:38025
+1612067931495	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiledjZ0JN"
+Gtk-Message: 12:38:51.604: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:38:52.335: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:38:52.465: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:128860): GLib-GIO-WARNING **: 12:38:52.653: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 12:38:53.647: Failed to load module "appmenu-gtk-module"
+1612067933647	Marionette	INFO	Listening on port 42623
+1612067933723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612067933735	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612067937320	Marionette	INFO	Stopped listening on port 35645
+1612067937597	Marionette	INFO	Stopped listening on port 42623
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612067940237	geckodriver	INFO	Listening on 127.0.0.1:36001
+1612067940242	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWz1jkr"
+Gtk-Message: 12:39:00.352: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:39:01.069: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 12:39:01.199: Failed to load module "appmenu-gtk-module"
+
+(firefox:129269): GLib-GIO-WARNING **: 12:39:01.316: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+Gtk-Message: 12:39:02.300: Failed to load module "appmenu-gtk-module"
+1612067942305	Marionette	INFO	Listening on port 33957
+1612067942372	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612067942386	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1612067946115	Marionette	INFO	Stopped listening on port 33957
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612085049903	geckodriver	INFO	Listening on 127.0.0.1:51429
+1612085049907	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileywt75p"
+Gtk-Message: 17:24:10.011: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:24:10.723: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:24:10.861: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:418793): GLib-GIO-WARNING **: 17:24:11.051: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612085051951	Marionette	INFO	Listening on port 38007
+Gtk-Message: 17:24:11.967: Failed to load module "appmenu-gtk-module"
+1612085052031	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612085052044	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1612085055666	Marionette	INFO	Stopped listening on port 38007
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612085760636	geckodriver	INFO	Listening on 127.0.0.1:36553
+1612085760641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJ5UTzT"
+Gtk-Message: 17:36:00.764: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:36:01.798: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:36:01.972: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:431766): GLib-GIO-WARNING **: 17:36:02.280: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612085763262	Marionette	INFO	Listening on port 45155
+Gtk-Message: 17:36:03.277: Failed to load module "appmenu-gtk-module"
+1612085763376	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612085763389	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript warning: https://s3.music.126.net/web/s/core_737938686aedfcff83530854836e89a4.js?737938686aedfcff83530854836e89a4, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_737938686aedfcff83530854836e89a4.js?737938686aedfcff83530854836e89a4, line 142: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_737938686aedfcff83530854836e89a4.js?737938686aedfcff83530854836e89a4, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_737938686aedfcff83530854836e89a4.js?737938686aedfcff83530854836e89a4, line 142: unreachable code after return statement
+1612085778100	Marionette	INFO	Stopped listening on port 45155
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612085792890	geckodriver	INFO	Listening on 127.0.0.1:36757
+1612085792894	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekZfrKm"
+Gtk-Message: 17:36:33.000: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:36:33.723: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 17:36:33.851: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:432575): GLib-GIO-WARNING **: 17:36:34.040: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612085794943	Marionette	INFO	Listening on port 45083
+Gtk-Message: 17:36:34.969: Failed to load module "appmenu-gtk-module"
+1612085795023	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612085795037	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1612085798008	Marionette	INFO	Stopped listening on port 45083
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099067370	geckodriver	INFO	Listening on 127.0.0.1:34335
+1612099068428	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZfiG6b"
+Gtk-Message: 21:17:48.747: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:17:49.835: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:17:50.044: Failed to load module "appmenu-gtk-module"
+
+(firefox:874162): GLib-GIO-WARNING **: 21:17:50.243: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612099071150	Marionette	INFO	Listening on port 38857
+Gtk-Message: 21:17:51.166: Failed to load module "appmenu-gtk-module"
+1612099071257	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099071271	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612099089569	Marionette	INFO	Stopped listening on port 38857
+1612099093980	geckodriver	INFO	Listening on 127.0.0.1:59927
+1612099093984	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile19MvKI"
+Gtk-Message: 21:18:14.113: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:18:14.960: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:18:15.104: Failed to load module "appmenu-gtk-module"
+
+(firefox:874928): GLib-GIO-WARNING **: 21:18:15.271: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612099096170	Marionette	INFO	Listening on port 33911
+Gtk-Message: 21:18:16.193: Failed to load module "appmenu-gtk-module"
+1612099096213	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099096228	Marionette	ERROR	[15] No reply from Marionette:Register
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://www.baidu.com"
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099107726	Marionette	INFO	Stopped listening on port 33911
+1612099143184	geckodriver	INFO	Listening on 127.0.0.1:59743
+1612099143189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewZgfgp"
+Gtk-Message: 21:19:03.311: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:19:04.097: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:19:04.262: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:876203): GLib-GIO-WARNING **: 21:19:04.417: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+Gtk-Message: 21:19:05.349: Failed to load module "appmenu-gtk-module"
+1612099145414	Marionette	INFO	Listening on port 33669
+1612099145521	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099145537	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+console.error: services.settings: 
+  main/message-groups Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/partitioning-exempt-urls Signature failed  TypeError: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+  main/fxmonitor-breaches Signature failed  TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099176846	Marionette	INFO	Stopped listening on port 33669
+1612099178490	geckodriver	INFO	Listening on 127.0.0.1:60015
+1612099178493	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7qsudZ"
+Gtk-Message: 21:19:38.609: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:19:39.440: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:19:39.582: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:877184): GLib-GIO-WARNING **: 21:19:39.810: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612099180687	Marionette	INFO	Listening on port 38041
+Gtk-Message: 21:19:40.703: Failed to load module "appmenu-gtk-module"
+1612099180727	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099180745	Marionette	ERROR	[15] No reply from Marionette:Register
+1612099183378	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:19:43.616: Failed to load module "appmenu-gtk-module"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript warning: https://pos.baidu.com/scgm?conwid=250&conhei=250&rdid=6273283&dc=3&exps=110261,110254,110011&psi=89c183f95dc07fe1c867d85a0fd6d3ad&di=u6273283&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099185393&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099185&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DMUldaMAnfA2GEutEU_aXsVKQA56HI1pXSfv1AUzFZtKzeegPRNy1T-52MmcYbDNU_sZhOHdDvFNb4AQV1JTDAEKtQt_WM9-oEbClc139x5e%26wd%3D%26eqid%3Df5257a4e00085ead000000036016ae6d&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099185&qn=2095b1384be32cd9&tt=1612099185371.26.183.188, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/scgm?conwid=250&conhei=250&rdid=6273283&dc=3&exps=110261,110254,110011&psi=89c183f95dc07fe1c867d85a0fd6d3ad&di=u6273283&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099185393&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099185&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DMUldaMAnfA2GEutEU_aXsVKQA56HI1pXSfv1AUzFZtKzeegPRNy1T-52MmcYbDNU_sZhOHdDvFNb4AQV1JTDAEKtQt_WM9-oEbClc139x5e%26wd%3D%26eqid%3Df5257a4e00085ead000000036016ae6d&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099185&qn=2095b1384be32cd9&tt=1612099185371.26.183.188, line 137: unreachable code after return statement
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/sbase-0948aa26f1.js, line 70: Error: load css timeout : https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/css/components/user_quit_dialog-527f3ede74.css
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099210007	Marionette	INFO	Stopped listening on port 38041
+1612099511466	geckodriver	INFO	Listening on 127.0.0.1:56071
+1612099511470	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilem8GnSY"
+Gtk-Message: 21:25:11.584: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:12.387: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:12.633: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:883407): GLib-GIO-WARNING **: 21:25:12.882: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612099513686	Marionette	INFO	Listening on port 43679
+Gtk-Message: 21:25:13.694: Failed to load module "appmenu-gtk-module"
+1612099513802	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099513814	Marionette	ERROR	[15] No reply from Marionette:Register
+1612099516459	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:25:16.625: Failed to load module "appmenu-gtk-module"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript warning: https://pos.baidu.com/fcpm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=f58eae931630bfa1428b5b4b8ac03e8a&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099518390&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099518&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DdMx-Vtc8yDYeLoeSBchtGmbH0mWj67wQcvifny9zfVER1dnC1AO1LlBt4fflOny-jTQiAstVA1f_a8WfpGfmJrFB09qcx-uClpGfE9AesSm%26wd%3D%26eqid%3De19324800025938e000000036016afbb&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099518&qn=aef1f3359c4ed5b4&tt=1612099518382.12.256.258, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/fcpm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=f58eae931630bfa1428b5b4b8ac03e8a&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099518390&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099518&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DdMx-Vtc8yDYeLoeSBchtGmbH0mWj67wQcvifny9zfVER1dnC1AO1LlBt4fflOny-jTQiAstVA1f_a8WfpGfmJrFB09qcx-uClpGfE9AesSm%26wd%3D%26eqid%3De19324800025938e000000036016afbb&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099518&qn=aef1f3359c4ed5b4&tt=1612099518382.12.256.258, line 137: unreachable code after return statement
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/sbase-0948aa26f1.js, line 70: Error: load css timeout : https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/css/components/user_quit_dialog-527f3ede74.css
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099534266	Marionette	INFO	Stopped listening on port 43679
+1612099536269	geckodriver	INFO	Listening on 127.0.0.1:46993
+1612099536273	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejXhUoI"
+Gtk-Message: 21:25:36.381: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:37.131: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:37.290: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:884260): GLib-GIO-WARNING **: 21:25:37.472: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612099538178	Marionette	INFO	Listening on port 39857
+Gtk-Message: 21:25:38.184: Failed to load module "appmenu-gtk-module"
+1612099538296	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099538309	Marionette	ERROR	[15] No reply from Marionette:Register
+1612099540281	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:25:40.465: Failed to load module "appmenu-gtk-module"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript warning: https://pos.baidu.com/ecim?conwid=250&conhei=250&rdid=6273283&dc=3&exps=110261,110254,110011&psi=a3dc1652077953230334b1f1ee0be92f&di=u6273283&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099542320&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099542&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DBAMyhBGppCiZJNw5BpLdxZasNPf1S6qnqleBwidE3Q6SNR3k49BN9jgUpEY9YZMYeRKq2Pwz3QOyYDHHM1MEl4pdtrlJ0wTgDDTYHyJIqSa%26wd%3D%26eqid%3Dbdc0a92200274b1e000000036016afd3&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099542&qn=c191fb4b520a7a45&tt=1612099542309.17.372.373, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/ecim?conwid=250&conhei=250&rdid=6273283&dc=3&exps=110261,110254,110011&psi=a3dc1652077953230334b1f1ee0be92f&di=u6273283&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099542320&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099542&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DBAMyhBGppCiZJNw5BpLdxZasNPf1S6qnqleBwidE3Q6SNR3k49BN9jgUpEY9YZMYeRKq2Pwz3QOyYDHHM1MEl4pdtrlJ0wTgDDTYHyJIqSa%26wd%3D%26eqid%3Dbdc0a92200274b1e000000036016afd3&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099542&qn=c191fb4b520a7a45&tt=1612099542309.17.372.373, line 137: unreachable code after return statement
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+Gtk-Message: 21:25:52.007: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:52.762: Failed to load module "appmenu-gtk-module"
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612099553518	Marionette	INFO	Stopped listening on port 39857
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1612099554950	geckodriver	INFO	Listening on 127.0.0.1:33377
+1612099554955	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWXPH8T"
+Gtk-Message: 21:25:55.075: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:55.833: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:25:55.939: Failed to load module "appmenu-gtk-module"
+
+(firefox:885061): GLib-GIO-WARNING **: 21:25:56.065: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612099556666	Marionette	INFO	Listening on port 34127
+1612099556701	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099556715	Marionette	ERROR	[15] No reply from Marionette:Register
+Gtk-Message: 21:25:56.861: Failed to load module "appmenu-gtk-module"
+1612099559269	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:25:59.475: Failed to load module "appmenu-gtk-module"
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 775))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 422))
+JavaScript warning: https://pos.baidu.com/wcbm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=6c3ba7d5f781c7ffab7ecddca04fd6fe&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099560561&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099560&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DY53hkgelh8fO72qQUhJNAyl5XZg_4wpeVNo-YD2aUb1rbJP8tUojuklVSvMaO7sngNBOZ8s8Z3o6ggkYyOmxdGGvKnfiujtjtaY9GlVz0n_%26wd%3D%26eqid%3Da28c6eed00082b56000000036016afe6&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099561&qn=8f9f3b17a456957b&tt=1612099560553.12.207.207, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/wcbm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=6c3ba7d5f781c7ffab7ecddca04fd6fe&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099560561&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099560&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DY53hkgelh8fO72qQUhJNAyl5XZg_4wpeVNo-YD2aUb1rbJP8tUojuklVSvMaO7sngNBOZ8s8Z3o6ggkYyOmxdGGvKnfiujtjtaY9GlVz0n_%26wd%3D%26eqid%3Da28c6eed00082b56000000036016afe6&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099561&qn=8f9f3b17a456957b&tt=1612099560553.12.207.207, line 137: unreachable code after return statement
+1612099564456	Marionette	ERROR	[37] No reply from Marionette:Register
+Gtk-Message: 21:26:04.614: Failed to load module "appmenu-gtk-module"
+JavaScript warning: https://pos.baidu.com/pccm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=e1cb2e45206fcf31833b44ac6a153bf7&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099565457&ti=%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%EF%BC%88%E9%87%91%E5%BA%B8%E9%95%BF%E7%AF%87%E6%AD%A6%E4%BE%A0%E5%B0%8F%E8%AF%B4%EF%BC%89_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x10251&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099565&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%25A9%25E9%25BE%2599%25E5%2585%25AB%25E9%2583%25A8%2F5480052&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099565&qn=8f9f3b17a456957b&tt=1612099565448.14.14.15, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/pccm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=e1cb2e45206fcf31833b44ac6a153bf7&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099565457&ti=%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%EF%BC%88%E9%87%91%E5%BA%B8%E9%95%BF%E7%AF%87%E6%AD%A6%E4%BE%A0%E5%B0%8F%E8%AF%B4%EF%BC%89_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x10251&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099565&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%25A9%25E9%25BE%2599%25E5%2585%25AB%25E9%2583%25A8%2F5480052&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099565&qn=8f9f3b17a456957b&tt=1612099565448.14.14.15, line 137: unreachable code after return statement
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/sbase-0948aa26f1.js, line 70: Error: load css timeout : https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/css/components/user_quit_dialog-527f3ede74.css
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/sbase-0948aa26f1.js, line 70: Error: load css timeout : https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superui/css/ubase_9376fdcf.css
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+JavaScript error: , line 0: AbortError: A request was aborted, for example through a call to IDBTransaction.abort.
+1612099578534	Marionette	INFO	Stopped listening on port 34127
+1612099745860	geckodriver	INFO	Listening on 127.0.0.1:57967
+1612099745864	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2TP6jx"
+Gtk-Message: 21:29:05.970: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:29:06.716: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:29:06.899: Failed to load module "appmenu-gtk-module"
+
+(firefox:888868): GLib-GIO-WARNING **: 21:29:06.968: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1612099747777	Marionette	INFO	Listening on port 37493
+Gtk-Message: 21:29:07.813: Failed to load module "appmenu-gtk-module"
+1612099747893	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099747905	Marionette	ERROR	[15] No reply from Marionette:Register
+1612099749890	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:29:10.071: Failed to load module "appmenu-gtk-module"
+JavaScript warning: https://pos.baidu.com/ucnm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=be75ae1fdef315577f5c6a356d533185&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099756139&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099756&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DS5ALMc8-alyqbDc6dqjLu3u_Q9hJWg0sZK5gK0urKLcbTscaOSyaeaCmziEPC2z9VJwX5J8lTAKIScWV8ng1UPrDSmdiNqjfOPu58xj2fO7%26wd%3D%26eqid%3Debbe63e800293473000000036016b0a4&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099756&qn=58e0a77a71312979&tt=1612099756130.15.552.556, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/ucnm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=be75ae1fdef315577f5c6a356d533185&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099756139&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099756&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DS5ALMc8-alyqbDc6dqjLu3u_Q9hJWg0sZK5gK0urKLcbTscaOSyaeaCmziEPC2z9VJwX5J8lTAKIScWV8ng1UPrDSmdiNqjfOPu58xj2fO7%26wd%3D%26eqid%3Debbe63e800293473000000036016b0a4&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099756&qn=58e0a77a71312979&tt=1612099756130.15.552.556, line 137: unreachable code after return statement
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612099777705	Marionette	INFO	Stopped listening on port 37493
+1612099779976	geckodriver	INFO	Listening on 127.0.0.1:40463
+1612099779980	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5vFLwX"
+Gtk-Message: 21:29:40.088: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:29:40.825: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 21:29:40.982: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:889909): GLib-GIO-WARNING **: 21:29:41.139: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1612099781984	Marionette	INFO	Listening on port 40009
+Gtk-Message: 21:29:42.003: Failed to load module "appmenu-gtk-module"
+1612099782019	Marionette	WARN	TLS certificate errors will be ignored for this session
+1612099782035	Marionette	ERROR	[15] No reply from Marionette:Register
+1612099784184	Marionette	ERROR	[35] No reply from Marionette:Register
+Gtk-Message: 21:29:44.367: Failed to load module "appmenu-gtk-module"
+JavaScript warning: https://pos.baidu.com/gcym?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=9ecc5dd5dc63a2242ac1283758daedc8&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099785497&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099785&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DAv32ML6sZe9gNqYrvgFn6oqZf4NPSBDa4Oy20e8YTsdttmpLdbDDAiObL13Rn82wugrwO6f1DOPKw8hkPpoJGJlDAdzsibPtBdUVhNDho1K%26wd%3D%26eqid%3Ded679ad20014e68e000000036016b0c7&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099786&qn=4d2abbfd73179dfa&tt=1612099785488.13.208.209, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/gcym?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=9ecc5dd5dc63a2242ac1283758daedc8&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099785497&ti=%E8%99%9A%E7%AB%B9_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x6994&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099785&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ltr=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DAv32ML6sZe9gNqYrvgFn6oqZf4NPSBDa4Oy20e8YTsdttmpLdbDDAiObL13Rn82wugrwO6f1DOPKw8hkPpoJGJlDAdzsibPtBdUVhNDho1K%26wd%3D%26eqid%3Ded679ad20014e68e000000036016b0c7&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099786&qn=4d2abbfd73179dfa&tt=1612099785488.13.208.209, line 137: unreachable code after return statement
+1612099789386	Marionette	ERROR	[37] No reply from Marionette:Register
+JavaScript warning: https://pos.baidu.com/jcnm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=85a51e01c91fac092eea019dc3c05e3a&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099790162&ti=%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%EF%BC%88%E9%87%91%E5%BA%B8%E9%95%BF%E7%AF%87%E6%AD%A6%E4%BE%A0%E5%B0%8F%E8%AF%B4%EF%BC%89_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x10251&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099790&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%25A9%25E9%25BE%2599%25E5%2585%25AB%25E9%2583%25A8%2F5480052&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099790&qn=4d2abbfd73179dfa&tt=1612099790155.11.11.12, line 137: unreachable code after return statement
+JavaScript warning: https://pos.baidu.com/jcnm?conwid=250&conhei=250&rdid=1997633&dc=3&exps=110261,110254,110011&psi=85a51e01c91fac092eea019dc3c05e3a&di=u1997633&dri=0&dis=0&dai=1&ps=0x0&coa=wn%3D2%26hn%3D8&enu=encoding&ant=0&aa=1&dcb=___adblockplus_&dtm=HTML_POST&dvi=0.0&dci=-1&dpt=none&tsr=0&tpr=1612099790162&ti=%E5%A4%A9%E9%BE%99%E5%85%AB%E9%83%A8%EF%BC%88%E9%87%91%E5%BA%B8%E9%95%BF%E7%AF%87%E6%AD%A6%E4%BE%A0%E5%B0%8F%E8%AF%B4%EF%BC%89_%E7%99%BE%E5%BA%A6%E7%99%BE%E7%A7%91&ari=2&ver=0128&dbv=0&drs=3&pcs=1268x840&pss=1268x10251&cfv=0&cpl=0&chi=1&cce=true&cec=UTF-8&tlm=1612099790&prot=2&rw=840&ltu=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E5%25A4%25A9%25E9%25BE%2599%25E5%2585%25AB%25E9%2583%25A8%2F5480052&ltr=https%3A%2F%2Fbaike.baidu.com%2Fitem%2F%25E8%2599%259A%25E7%25AB%25B9%2F8081245%3Ffr%3Daladdin&ecd=1&uc=1920x1052&pis=-1x-1&sr=1920x1080&tcn=1612099790&qn=4d2abbfd73179dfa&tt=1612099790155.11.11.12, line 137: unreachable code after return statement
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: https://gss0.baidu.com/9rA4cT8aBw9FktbgoI7O1ygwehsv/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 987: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1612099800543	Marionette	INFO	Stopped listening on port 40009
+1616240954267	geckodriver	INFO	Listening on 127.0.0.1:43429
+1616240955276	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileFwGx9Q"
+Gtk-Message: 19:49:15.579: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 19:49:16.443: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 19:49:16.795: Failed to load module "appmenu-gtk-module"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+
+(firefox:150882): GLib-GIO-WARNING **: 19:49:16.921: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+1616240957570	Marionette	INFO	Listening on port 38609
+1616240957616	Marionette	WARN	TLS certificate errors will be ignored for this session
+Gtk-Message: 19:49:17.642: Failed to load module "appmenu-gtk-module"
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 142: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 142: unreachable code after return statement
+1616240977137	Marionette	INFO	Stopped listening on port 38609
+JavaScript error: resource://activity-stream/lib/ASRouter.jsm, line 988: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIObserverService.removeObserver]
+1616240997551	geckodriver	INFO	Listening on 127.0.0.1:47967
+1616240997555	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilea1ffLR"
+Gtk-Message: 19:49:57.658: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 19:49:58.411: Failed to load module "appmenu-gtk-module"
+Gtk-Message: 19:49:58.762: Failed to load module "appmenu-gtk-module"
+
+(firefox:151977): GLib-GIO-WARNING **: 19:49:58.847: /etc/xdg/kde-mimeapps.list contains a [Added Associations] group, but it is not permitted here.  Only the non-desktop-specific mimeapps.list file may add or remove associations.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1616240999514	Marionette	INFO	Listening on port 45003
+Gtk-Message: 19:49:59.563: Failed to load module "appmenu-gtk-module"
+1616240999579	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 142: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 96: unreachable code after return statement
+JavaScript warning: https://s3.music.126.net/web/s/core_d84363e2e9eadc71c93b1e6ba3bc419a.js?d84363e2e9eadc71c93b1e6ba3bc419a, line 142: unreachable code after return statement
+1616241011863	Marionette	INFO	Stopped listening on port 45003
