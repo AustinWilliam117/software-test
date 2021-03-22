@@ -20,6 +20,3 @@ try:
     driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
 finally:
     driver.quit()
-
-
-

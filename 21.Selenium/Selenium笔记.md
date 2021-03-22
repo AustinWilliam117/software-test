@@ -56,7 +56,7 @@ driver.quit()
 #### 关闭当前窗口与退出浏览器
 
 ```python
-# 关闭当前窗口
+# 关闭当前窗口(与窗口切换例子一起展示)
 .driver.close()
 
 # 退出浏览器，关闭所有窗口
@@ -678,8 +678,300 @@ finally:
 
 ### Frame切换
 
+我们在使用Selenium定位页面元素的时候，有时会遇到定位不到的问题，在页面上可以看到元素，用浏览器的开发者工具也能够看到，而代码运行就是定位不到。当遇到这种情况时，很有可能是有Frame存在。
+
+Frame标签有Frameset、Frame和IFrame 3种，Frameset跟其他普通标签没有区别，不会影响到正常的定位。在页面中我们经常能看到Frame或IFrame（Frame是整个页面的框架，IFrame是内嵌的框架），由于WebDriver定位元素时只能在一个页面上定位，所以对于IFrame这样的情况，WebDriver是无法直接定位到元素的。
+
+Selenium中有对应的方法对Frame进行操作。
+
+WebDriver提供了switch_to.frame()方法来切换Frame  `switch_to.frame(reference)`
+
+![](./picture/farme.png)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+</head>
+<body>
+    <div class="alert" align="center">The link
+        <a href="alert-link" href="https://www.baidu.com">baidu</a>
+    </div>
+    <div class="row-fluid">
+        <div class="span-ifrme" align="center">
+            <h4 align="center">iframe</h4>
+                <iframe id="iname" name="nf" src="https://www.baidu.com" frameborder="0" width="800" height="600">
+                </iframe>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+```python
+# 单击Bing搜索页的搜索框完成关键字的搜索
+
+
+```
+
+
+
 
 
 selenium第二次作业：
 对于css绝对路径各写3个demo，xpath和css的相对路径各写15个demo代码，涵盖我讲的每种用法。
 特殊api场景处理，需要每个先xmind或者word进行整理，理清楚使用的内容以及每个api要通过代码实现输出。
+
+```python
+//div[@class='schbox']/form/input[1]
+
+利剑 2021-3-21 9:30:37
+//div[@class='small_cart']/a/div/span
+
+利剑 2021-3-21 9:31:54
+//input[@class='but1']
+
+利剑 2021-3-21 9:32:49
+//input[@placeholder='请输入你要查找的关键字']
+
+利剑 2021-3-21 9:34:45
+//input[@name='key' and @class='but1']
+
+利剑 2021-3-21 9:35:19
+//input[@name='key' and @class='but1' and @type='text']
+
+利剑 2021-3-21 9:37:17
+//*[@name='key' and @class='but1' and @type='text']
+
+利剑 2021-3-21 9:39:32
+//a[text()='免费注册']
+
+利剑 2021-3-21 9:41:38
+//input[contains(@placeholder,'请输入')]
+
+利剑 2021-3-21 9:44:45
+driver.find_element_by_xpath('//input[contains(@placeholder,"请输入")]')
+
+利剑 2021-3-21 9:48:33
+//input[@class='but1']/..
+
+利剑 2021-3-21 9:52:25
+css选择器
+
+利剑 2021-3-21 9:54:49
+html>body>div>div>div>div>form>input
+
+利剑 2021-3-21 9:57:19
+i#cart_num
+
+利剑 2021-3-21 9:58:59
+input.but1
+
+利剑 2021-3-21 10:00:32
+input[placeholder='请输入你要查找的关键字']
+
+利剑 2021-3-21 10:01:46
+input[class='but1']
+
+利剑 2021-3-21 10:03:09
+div[class='schbox']>form>input:nth-child(1)
+
+利剑 2021-3-21 10:04:35
+div.schbox>form>input:nth-child(1)
+
+利剑 2021-3-21 10:05:57
+input[name='key'][placeholder='请输入你要查找的关键字'][type='text']
+
+利剑 2021-3-21 10:06:55
+div.schbox>form>input:first-child
+
+利剑 2021-3-21 10:07:29
+div.schbox>form>input:last-child
+
+利剑 2021-3-21 10:08:28
+div.schbox>form>input:nth-last-child(2)
+
+利剑 2021-3-21 10:13:17
+driver.find_element_by_css_selector("i#cart_num").click()
+
+driver.find_element_by_tag_name()
+
+aa = driver.find_elements_by_tag_name("input")
+aa[98].click()
+
+利剑 2021-3-21 10:41:44
+title = driver.title
+
+利剑 2021-3-21 10:43:16
+url = driver.current_url
+
+利剑 2021-3-21 10:48:50
+driver.refresh()
+
+利剑 2021-3-21 10:49:37
+driver.back()
+
+利剑 2021-3-21 10:49:47
+driver.forward()
+
+利剑 2021-3-21 10:55:08
+driver.set_window_size(1200,800)
+
+利剑 2021-3-21 10:56:37
+driver.maximize_window()
+
+利剑 2021-3-21 10:59:35
+.clear()
+
+利剑 2021-3-21 11:00:25
+.click()
+
+利剑 2021-3-21 11:08:57
+size = driver.find_element_by_xpath("//div[@class='schbox']/form/input").size
+print(type(size))
+print(size)
+print(size['height'])
+
+利剑 2021-3-21 11:11:13
+text = driver.find_element_by_css_selector('div.schhot>a').text
+
+利剑 2021-3-21 11:13:48
+inputButton = driver.find_element_by_xpath("//div[@class='schbox']/form/input").get_attribute('placeholder')
+
+利剑 2021-3-21 11:16:40
+dis = driver.find_element_by_xpath("//div[@class='schbox']/form/input").is_displayed()
+
+利剑 2021-3-21 11:17:53
+回显
+
+利剑 2021-3-21 11:18:42
+.get_attribute('value')
+
+利剑 2021-3-21 11:23:41
+from selenium.webdriver.common.action_chains import ActionChains
+
+利剑 2021-3-21 11:30:34
+ele = driver.find_element_by_link_text('母婴玩具')
+time.sleep(4)
+
+ActionChains(driver).move_to_element(ele).perform()
+
+利剑 2021-3-21 11:32:14
+ActionChains(driver).context_click(ele).perform()
+ActionChains(driver).double_click(ele).perform()
+
+source = driver.find_element_by_xpath("sdf")
+target = driver.find_element_by_xpath("")
+ActionChains(driver).drag_and_drop(source,target)
+
+ActionChains(driver).drag_and_drop_by_offset(source,100,0)
+
+利剑 2021-3-21 11:52:53
+driver.find_element_by_xpath("//div[@class='schbox']/form/input").send_keys(Keys.CONTROL,'a')
+
+利剑 2021-3-21 11:53:00
+driver.find_element_by_xpath("//div[@class='schbox']/form/input").send_keys(Keys.BACK_SPACE)
+
+利剑 2021-3-21 11:53:11
+from selenium.webdriver.common.keys import Keys
+
+利剑 2021-3-21 14:22:55
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support import expected_conditions as EC
+
+利剑 2021-3-21 14:32:31
+ele = WebDriverWait(driver,15,0.5).until_not(EC.presence_of_element_located(
+	(By.XPATH,"//div[@class='schbox']/form/input[1]")))
+
+利剑 2021-3-21 14:34:38
+焦点 句柄
+
+利剑 2021-3-21 14:37:17
+print(driver.window_handles)
+
+利剑 2021-3-21 14:38:22
+print (driver.current_window_handle)
+
+driver.switch_to.window(driver.window_handles[1])
+
+利剑 2021-3-21 14:44:52
+driver.close()
+
+利剑 2021-3-21 14:45:36
+driver.quit()
+
+利剑 2021-3-21 14:54:22
+driver.switch_to.alert.send_keys("test")
+
+利剑 2021-3-21 14:54:50
+print (driver.switch_to.alert.text)
+
+利剑 2021-3-21 14:55:14
+driver.switch_to.alert.accept()
+
+利剑 2021-3-21 14:55:24
+driver.switch_to.alert.dismiss()
+
+利剑 2021-3-21 15:04:56
+driver.get_screenshot_as_file("E:/newCourselenium/test.png")
+
+利剑 2021-3-21 15:14:37
+driver.switch_to.frame('x-URS-iframe')#有id,name
+
+利剑 2021-3-21 15:20:51
+dd = driver.find_element_by_xpath("//div[@id='loginDiv']/iframe")
+driver.switch_to.frame(dd)
+
+driver.switch_to.parent_frame()#从子frame切回到父frame
+driver.switch_to.default_content()#切回主文档
+
+利剑 2021-3-21 15:37:32
+from selenium.webdriver.support.select import Select
+
+利剑 2021-3-21 15:40:04
+s = driver.find_element_by_id("J_roomCountList")
+Select(s).select_by_visible_text("2间")
+
+利剑 2021-3-21 15:41:15
+Select(s).select_by_index(3)
+
+利剑 2021-3-21 15:42:11
+Select(s).select_by_value("5")
+
+利剑 2021-3-21 15:55:37
+js = "document.getElementById('noticeEndTime').removeAttribute('readonly')"
+
+利剑 2021-3-21 15:55:43
+d.find_element_by_name("noticeEndTime").send_keys("2019-06-12 10:52:52")
+
+利剑 2021-3-21 15:55:50
+d.execute_script(js)
+
+利剑 2021-3-21 15:58:24
+js = "document.getElementsByName('noticeEndTime')[0].removeAttribute('readonly')"
+
+利剑 2021-3-21 15:59:29
+js = "document.getElementsByTagName('input')[0].removeAttribute('readonly')"
+
+利剑 2021-3-21 16:04:31
+js="var q=document.documentElement.scrollTop=10000"
+driver.execute_script(js)
+
+利剑 2021-3-21 16:04:42
+js="var q=document.documentElement.scrollTop=0"
+
+利剑 2021-3-21 16:06:25
+driver.execute_script("window.scrollTo(0, document.body.scrollHeight*0.5)");
+
+利剑 2021-3-21 16:09:14
+driver.execute_script("window.scrollBy(0,200)");
+
+selenium自动化测试之--验证码处理
+http://www.bcbxhome.com/bcbxxy/forum.php?mod=viewthread&tid=295
+(出处: 编测编学学院_西安软件测试培训_软件测试培训机构)
+```
+
