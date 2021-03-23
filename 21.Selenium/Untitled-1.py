@@ -1,22 +1,33 @@
 from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from time import sleep,ctime
-
-# 隐式等待和显式等待是可以结合
+from time import sleep
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 
 driver = webdriver.Firefox()
-
-# 隐式等待
-driver.implicitly_wait(20)
-
 driver.get("https://cn.bing.com")
 
-try:
-    # 显示等待
-    WebDriverWait(driver,10,0.5).until(EC.presence_of_element_located((By.NAME,"q")))
-    
-    driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
-finally:
-    driver.quit()
+# 获取当前窗口
+handle = driver.current_window_handle
+
+driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+driver.find_element_by_xpath('//input[@name="go"]').click()
+
+sleep(2)
+
+# 使用JS打开新标签
+js = 'window.open("https://www.baidu.com");'
+driver.execute_script(js)
+
+# 获取所有窗口
+handles = driver.window_handles
+# 关闭当前窗口
+driver.close()
+# 切换窗口
+driver.switch_to.window(handles[1])
+
+sleep(2)
+
+driver.find_element_by_name("wd").send_keys("星际穿越")
+
+sleep(2)
+driver.quit()

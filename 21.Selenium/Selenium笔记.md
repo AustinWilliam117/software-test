@@ -1,3 +1,22 @@
+
+
+CSSSELECTOR
+
+```python
+# css selector 绝对路径
+from selenium import webdriver
+from time import sleep
+
+driver = webdriver.Chrome()
+driver.get("https://cn.bing.com")
+
+driver.find_element_by_css_selector('html>body>table>tbody>tr>td>div>div#sbox>div.search_controls>form>div>input').send_keys("星际穿越")
+
+sleep(5)
+
+driver.quit()
+```
+
 ### 操作浏览器的基本方法
 
 #### 获取页面URL地址与标题
@@ -698,12 +717,12 @@ WebDriver提供了switch_to.frame()方法来切换Frame  `switch_to.frame(refere
 </head>
 <body>
     <div class="alert" align="center">The link
-        <a href="alert-link" href="https://www.baidu.com">baidu</a>
+        <a href="https://www.baidu.com">baidu</a>
     </div>
     <div class="row-fluid">
         <div class="span-ifrme" align="center">
             <h4 align="center">iframe</h4>
-                <iframe id="iname" name="nf" src="https://www.baidu.com" frameborder="0" width="800" height="600">
+                <iframe id="iname" name="nf" src="https://cn.bing.com" frameborder="0" width="800" height="600">
                 </iframe>
         </div>
     </div>
@@ -712,17 +731,268 @@ WebDriver提供了switch_to.frame()方法来切换Frame  `switch_to.frame(refere
 ```
 
 ```python
-# 单击Bing搜索页的搜索框完成关键字的搜索
+# 单击Bing搜索页的搜索框完成关键字的搜索。iframe.html代码中IFrame标签的id等于"iname"
 
+from selenium import webdriver
+from time import sleep
 
+driver = webdriver.Firefox()
+driver.get('file:/home/william/DYJ/software-test/21.Selenium/html/frame.html')
+
+# 操作IFrame,切换窗体IFrame(id:iname,name:nf)
+# 使用switch_to_frame时会在该方法上出现下划线，不再推荐
+# driver.switch_to.frame("iname")
+
+driver.switch_to.frame("iname")
+driver.find_element_by_xpath('//input[@id="sb_form_q"]').send_keys("星际穿越")
+driver.find_element_by_xpath('//input[@id="sb_form_go"]').click()
+
+sleep(2)
+
+driver.quit()
 ```
 
+切换到主窗体
 
+当切换到子窗体Frame中之后，便不能继续操作主窗体中的元素了，这时如果要操作主窗体中的元素，则需切换回主窗体。
+
+就是当对Bing搜索页完成操作后，如想单击外部的baidu链接，则需要切换到主窗体。切换到主窗体的方法是driver.switch_to.default_content() [跳到最外层窗体]。
+
+```python
+from selenium import webdriver
+from time import sleep
+
+driver = webdriver.Firefox()
+driver.get('file:/home/william/DYJ/software-test/21.Selenium/html/frame.html')
+
+# 操作IFrame,切换窗体IFrame(id:iname,name:nf)
+# 使用switch_to_frame时会在该方法上出现下划线，不再推荐
+# driver.switch_to.frame("iname")
+
+driver.switch_to.frame("iname")
+driver.find_element_by_xpath('//input[@id="sb_form_q"]').send_keys("星际穿越")
+driver.find_element_by_xpath('//input[@id="sb_form_go"]').click()
+
+sleep(2)
+
+# driver.switch_to.default_content() 跳到最外层窗体
+driver.switch_to.default_content()
+driver.find_element_by_xpath('//a').click()
+
+sleep(2)
+
+driver.quit()
+```
+
+如果遇到嵌套的Frame，由子窗体切换到它的上一级父窗体，则可以使用switch_to.parent_frame()方法。
+
+就是当对Bing搜索页进行操作后，如果想单击外部的baidu链接，其实就是切换到它的父级，因此也可以通过switch_to.parent_frame()方法实现
+
+```python
+from selenium import webdriver
+from time import sleep
+
+driver = webdriver.Firefox()
+driver.get('file:/home/william/DYJ/software-test/21.Selenium/html/frame.html')
+
+# 操作IFrame,切换窗体IFrame(id:iname,name:nf)
+# 使用switch_to_frame时会在该方法上出现下划线，不再推荐
+# driver.switch_to.frame("iname")
+
+driver.switch_to.frame("iname")
+driver.find_element_by_xpath('//input[@id="sb_form_q"]').send_keys("星际穿越")
+driver.find_element_by_xpath('//input[@id="sb_form_go"]').click()
+
+sleep(2)
+
+# driver.switch_to.parent_frame() 跳到上一层窗体
+driver.switch_to.parent_frame()
+driver.find_element_by_xpath('//a').click()
+
+sleep(2)
+
+driver.quit()
+```
+
+### 屏幕截图
+
+在测试脚本执行过程中，当运行到某些步骤时存在运行失败的可能性。当脚本运行失败时，可以看脚本运行错误信息是常用的方法，如果可以把当前步骤所操作的场景通过图形展现出来（类似黑盒测试中提交Bug同时配图），就更容易让自动化测试工程师判别测试脚本执行失败的原因了。
+
+WebDriver提供的屏幕截图方法有下面4个
+
+1. save_screenshot()方法
+
+   save_screenshot()方法是保存一张后缀名为png的图片。
+
+   save_screenshot()的参数是文件名称，截图会保存在当前代码的目录下(Linux 保存在home/username目录下)
+
+   ```python
+   from selenium import webdriver
+   import time
+   
+   # 以日期为截图的名称
+   picture_time = time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime(time.time()))
+   
+   driver = webdriver.Firefox()
+   driver.get("https://cn.bing.com")
+   driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+   driver.find_element_by_xpath('//input[@name="go"]').click()
+   
+   time.sleep(1)
+   # 保存图片
+   driver.save_screenshot(picture_time + '.png')
+   
+   time.sleep(1)
+   driver.quit()
+   ```
+
+2. get_screenshot_as_file(filename)方法
+
+   将截图保存到指定的路径（该路径为绝对路径）下
+
+   ```python
+   from selenium import webdriver
+   import time
+   
+   driver = webdriver.Firefox()
+   driver.get("https://cn.bing.com")
+   driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+   driver.find_element_by_xpath('//input[@name="go"]').click()
+   
+   time.sleep(1)
+   
+   driver.get_screenshot_as_file("/home/william/DYJ/software-test/21.Selenium/picture/bing.png")
+   
+   time.sleep(1)
+   driver.quit()
+   ```
+
+3. get_screenshot_as_png()方法
+
+   get_screenshot_as_png()方法是获取当前屏幕截图的二进制文件数据
+
+   ```python
+   from selenium import webdriver
+   import time
+   
+   driver = webdriver.Firefox()
+   driver.get("https://cn.bing.com")
+   driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+   driver.find_element_by_xpath('//input[@name="go"]').click()
+   
+   time.sleep(1)
+   
+   screenshot = driver.get_screenshot_as_png()
+   print(screenshot)
+   
+   time.sleep(1)
+   driver.quit()
+   ```
+
+4. get_screenshot_as_base64()方法
+
+   get_screenshot_as_base64()方法是获取当前屏幕截图的Base64编码字符串，便于HTML页面直接嵌入Base64编码图片
+
+   ```python
+   from selenium import webdriver
+   import time
+   
+   driver = webdriver.Firefox()
+   driver.get("https://cn.bing.com")
+   driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+   driver.find_element_by_xpath('//input[@name="go"]').click()
+   
+   time.sleep(1)
+   
+   screenshot = driver.get_screenshot_as_base64()
+   print(screenshot)
+   
+   time.sleep(1)
+   driver.quit()
+   ```
+
+### 标签页切换
+
+点击链接可能会跳转到其他页面，但定位的元素是当前页面的，我们可以通过标签页进行切换
+
+```python
+from selenium import webdriver
+from time import sleep
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
+
+driver = webdriver.Firefox()
+driver.get("https://cn.bing.com")
+
+# 获取当前窗口
+handle = driver.current_window_handle
+
+driver.find_element_by_xpath('//input[@name="q"]').send_keys("星际穿越")
+driver.find_element_by_xpath('//input[@name="go"]').click()
+
+sleep(2)
+
+# 使用JS打开新标签
+js = 'window.open("https://www.baidu.com");'
+driver.execute_script(js)
+
+# 获取所有窗口
+handles = driver.window_handles
+# 关闭当前窗口
+driver.close()
+# 切换窗口
+driver.switch_to.window(handles[1])
+
+sleep(2)
+
+driver.find_element_by_name("wd").send_keys("星际穿越")
+
+sleep(2)
+driver.quit()
+```
+
+### 执行JavaScript脚本
+
+页面上的操作有时通过Selenium是无法实现的，如滚动条、时间控件等，此时就需要借助JavaScript来完成
+
+WebDriver提供了一个内置方法来操作JavaScript`driver.execute_script(self,script,args)`
 
 
 
 selenium第二次作业：
 对于css绝对路径各写3个demo，xpath和css的相对路径各写15个demo代码，涵盖我讲的每种用法。
+
+```python
+# 绝对路径demo1
+from selenium import webdriver
+from selenium.webdriver.common.by import By
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.support import expected_conditions as EC
+from selenium.webdriver.support.ui import WebDriverWait
+from time import sleep
+
+driver = webdriver.Chrome()
+driver.get("https://cn.bing.com")
+
+key = "星际穿越"
+
+driver.find_element_by_css_selector('html>body>table>tbody>tr>td>div>div#sbox>div.search_controls>form>div>input').send_keys(key)
+driver.find_element_by_css_selector('html>body>table>tbody>tr>td>div>div#sbox>div.search_controls>form>div>div>input').click()
+
+# 找到输入框
+element = WebDriverWait(driver,5,0.5).until(EC.presence_of_element_located((By.CSS_SELECTOR,'html>body>header>form>div>input')))
+
+# 模拟键盘删除输入
+# element.clear()
+for i in key:
+    element.send_keys(Keys.BACK_SPACE)
+    sleep(1)
+
+driver.quit()
+```
+
+
+
 特殊api场景处理，需要每个先xmind或者word进行整理，理清楚使用的内容以及每个api要通过代码实现输出。
 
 ```python
